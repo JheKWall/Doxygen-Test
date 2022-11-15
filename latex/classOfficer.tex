@@ -2,7 +2,17 @@
 \label{classOfficer}\index{Officer@{Officer}}
 
 
-Inheritance diagram for Officer\+:\nopagebreak
+Stores and calculates \hyperlink{classOfficer}{Officer} information.  
+
+
+
+
+{\ttfamily \#include \char`\"{}Doxygen-\/\+Test/\+Officer.\+h\char`\"{}}
+
+
+
+Inheritance diagram for Officer\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -11,7 +21,8 @@ Inheritance diagram for Officer\+:\nopagebreak
 \end{figure}
 
 
-Collaboration diagram for Officer\+:\nopagebreak
+Collaboration diagram for Officer\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -21,14 +32,13 @@ Collaboration diagram for Officer\+:\nopagebreak
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{classOfficer_aeadece05a1a0b7fb29bd412830d2e07a}\label{classOfficer_aeadece05a1a0b7fb29bd412830d2e07a}} 
-void {\bfseries print} ()
+void \hyperlink{classOfficer_aeadece05a1a0b7fb29bd412830d2e07a}{print} ()
 \item 
-\mbox{\Hypertarget{classOfficer_a1fa1aad39b9e95be7a088990ebf17059}\label{classOfficer_a1fa1aad39b9e95be7a088990ebf17059}} 
-double {\bfseries calculate\+Pay} ()
+double \hyperlink{classOfficer_a1fa1aad39b9e95be7a088990ebf17059}{calculate\+Pay} ()
 \item 
-\mbox{\Hypertarget{classOfficer_ac75c45d6e8628606278cb4ce6596f67f}\label{classOfficer_ac75c45d6e8628606278cb4ce6596f67f}} 
-{\bfseries Officer} (int ID, int years, double hourly\+Rate, float hours\+Worked, double evilness)
+\hyperlink{classOfficer_a80ac1e36a3f36c3a7e12b5dc9320ad89}{Officer} ()
+\item 
+\hyperlink{classOfficer_ac75c45d6e8628606278cb4ce6596f67f}{Officer} (int ID, int years, double hourly\+Rate, float hours\+Worked, double evilness)
 \end{DoxyCompactItemize}
 \subsection*{Private Attributes}
 \begin{DoxyCompactItemize}
@@ -39,7 +49,101 @@ double {\bfseries evilness}
 \subsection*{Additional Inherited Members}
 
 
+\subsection{Detailed Description}
+Stores and calculates \hyperlink{classOfficer}{Officer} information. 
+
+Derived \hyperlink{classEmployee}{Employee} class for \hyperlink{classOfficer}{Officer} employees. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classOfficer_a80ac1e36a3f36c3a7e12b5dc9320ad89}\label{classOfficer_a80ac1e36a3f36c3a7e12b5dc9320ad89}} 
+\index{Officer@{Officer}!Officer@{Officer}}
+\index{Officer@{Officer}!Officer@{Officer}}
+\subsubsection{\texorpdfstring{Officer()}{Officer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Officer\+::\+Officer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\hyperlink{classOfficer}{Officer} class default constructor.
+
+\begin{DoxyPrecond}{Precondition}
+An \hyperlink{classOfficer}{Officer} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Creates an empty \hyperlink{classOfficer}{Officer}, not that different from a complete one. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classOfficer_ac75c45d6e8628606278cb4ce6596f67f}\label{classOfficer_ac75c45d6e8628606278cb4ce6596f67f}} 
+\index{Officer@{Officer}!Officer@{Officer}}
+\index{Officer@{Officer}!Officer@{Officer}}
+\subsubsection{\texorpdfstring{Officer()}{Officer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Officer\+::\+Officer (\begin{DoxyParamCaption}\item[{int}]{ID,  }\item[{int}]{years,  }\item[{double}]{hourly\+Rate,  }\item[{float}]{hours\+Worked,  }\item[{double}]{evilness }\end{DoxyParamCaption})}
+
+\hyperlink{classOfficer}{Officer} class paramaterized constructor.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & ID \hyperlink{classOfficer}{Officer} ID \\
+\hline
+{\em int} & years \hyperlink{classOfficer}{Officer}\textquotesingle{}s Years Worked \\
+\hline
+{\em double} & hourly\+Rate \hyperlink{classOfficer}{Officer}\textquotesingle{}s Hourly Pay \\
+\hline
+{\em float} & hours\+Worked \hyperlink{classOfficer}{Officer}\textquotesingle{}s Hours Working \\
+\hline
+{\em double} & evilness \hyperlink{classOfficer}{Officer}\textquotesingle{}s Evilness \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+An \hyperlink{classOfficer}{Officer} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+An \hyperlink{classOfficer}{Officer} with the given information will be created. 
+\end{DoxyPostcond}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classOfficer_a1fa1aad39b9e95be7a088990ebf17059}\label{classOfficer_a1fa1aad39b9e95be7a088990ebf17059}} 
+\index{Officer@{Officer}!calculate\+Pay@{calculate\+Pay}}
+\index{calculate\+Pay@{calculate\+Pay}!Officer@{Officer}}
+\subsubsection{\texorpdfstring{calculate\+Pay()}{calculatePay()}}
+{\footnotesize\ttfamily double Officer\+::calculate\+Pay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Calculates \hyperlink{classOfficer}{Officer} pay\+: (hourly\+Rate $\ast$ hours\+Worked + evilness)
+
+\begin{DoxyPrecond}{Precondition}
+An \hyperlink{classOfficer}{Officer} 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+double The \hyperlink{classOfficer}{Officer}\textquotesingle{}s pay. 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+
+\end{DoxyPostcond}
+
+
+Reimplemented from \hyperlink{classEmployee_a01c2c44e15434237db28832f6972e960}{Employee}.
+
+\mbox{\Hypertarget{classOfficer_aeadece05a1a0b7fb29bd412830d2e07a}\label{classOfficer_aeadece05a1a0b7fb29bd412830d2e07a}} 
+\index{Officer@{Officer}!print@{print}}
+\index{print@{print}!Officer@{Officer}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Officer\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Prints all basic employee information alongside Officer-\/specific information.
+
+\begin{DoxyPrecond}{Precondition}
+An \hyperlink{classOfficer}{Officer} 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+Prints all \hyperlink{classOfficer}{Officer} information 
+\end{DoxyPostcond}
+
+
+Reimplemented from \hyperlink{classEmployee_a79556ad700627dba88049f487a34a762}{Employee}.
+
+
+
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-Officer.\+h\item 
-Officer.\+cpp\end{DoxyCompactItemize}
+\hyperlink{Officer_8h}{Officer.\+h}\item 
+\hyperlink{Officer_8cpp}{Officer.\+cpp}\end{DoxyCompactItemize}

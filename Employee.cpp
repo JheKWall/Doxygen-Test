@@ -1,3 +1,12 @@
+/**
+ * @file Employee.cpp
+ * @author Kenneth Wallace
+ * @date 2022-11-14
+ * @brief Employee class implementation file
+ * 
+ * File containing the implementations of the Employee class's methods as defined in Employee.h
+ */
+
 #include "Employee.h"
 #include <iostream>
 

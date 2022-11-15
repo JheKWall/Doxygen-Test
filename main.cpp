@@ -1,3 +1,12 @@
+/**
+ * @file main.cpp
+ * @author Kenneth Wallace
+ * @date 2022-11-14
+ * @brief Employee class (and children) Testing Program
+ * 
+ * Tests the Employee class and its children using customized functions.
+ */
+
 
 #include <iostream>
 #include "Employee.h"
@@ -6,6 +15,16 @@
 
 using namespace std;
 
+
+/**
+ * Employee class & children testing function
+ *
+ * @param Employee & e An Employee (or derivative) class
+ * @pre Initialized Employee (or derivative) object
+ * @return void 
+ * @post Tests will be conducted on the given object.
+ * 
+ */
 void runEmployeeTests(Employee & e);
 
 int main() {

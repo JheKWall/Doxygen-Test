@@ -1,3 +1,12 @@
+/**
+ * @file Supervisor.cpp
+ * @author Kenneth Wallace
+ * @date 2022-11-14
+ * @brief Supervisor class implementation file
+ * 
+ * Contains implementations for the Supervisor class's methods.
+ */
+
 #include "Supervisor.h"
 #include <iostream>
 

@@ -2,7 +2,17 @@
 \label{classSupervisor}\index{Supervisor@{Supervisor}}
 
 
-Inheritance diagram for Supervisor\+:\nopagebreak
+Stores and calculates \hyperlink{classSupervisor}{Supervisor} information.  
+
+
+
+
+{\ttfamily \#include \char`\"{}Doxygen-\/\+Test/\+Supervisor.\+h\char`\"{}}
+
+
+
+Inheritance diagram for Supervisor\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -11,7 +21,8 @@ Inheritance diagram for Supervisor\+:\nopagebreak
 \end{figure}
 
 
-Collaboration diagram for Supervisor\+:\nopagebreak
+Collaboration diagram for Supervisor\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -21,14 +32,13 @@ Collaboration diagram for Supervisor\+:\nopagebreak
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{classSupervisor_a92483dc9a54904d79b46c6ec4efb3f54}\label{classSupervisor_a92483dc9a54904d79b46c6ec4efb3f54}} 
-void {\bfseries print} ()
+void \hyperlink{classSupervisor_a92483dc9a54904d79b46c6ec4efb3f54}{print} ()
 \item 
-\mbox{\Hypertarget{classSupervisor_aa37daa89523c08b84ae8141299e036f8}\label{classSupervisor_aa37daa89523c08b84ae8141299e036f8}} 
-double {\bfseries calculate\+Pay} ()
+double \hyperlink{classSupervisor_aa37daa89523c08b84ae8141299e036f8}{calculate\+Pay} ()
 \item 
-\mbox{\Hypertarget{classSupervisor_a02d9245744652deb20e9408001d6ed3b}\label{classSupervisor_a02d9245744652deb20e9408001d6ed3b}} 
-{\bfseries Supervisor} (int ID, int years, double hourly\+Rate, float hours\+Worked, int num\+Supervised)
+\hyperlink{classSupervisor_a9d7eafc36b5429092ba0f758bc7841c4}{Supervisor} ()
+\item 
+\hyperlink{classSupervisor_a02d9245744652deb20e9408001d6ed3b}{Supervisor} (int ID, int years, double hourly\+Rate, float hours\+Worked, int num\+Supervised)
 \end{DoxyCompactItemize}
 \subsection*{Private Attributes}
 \begin{DoxyCompactItemize}
@@ -39,7 +49,101 @@ int {\bfseries num\+Supervised}
 \subsection*{Additional Inherited Members}
 
 
+\subsection{Detailed Description}
+Stores and calculates \hyperlink{classSupervisor}{Supervisor} information. 
+
+Derived \hyperlink{classEmployee}{Employee} class for \hyperlink{classSupervisor}{Supervisor} employees. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSupervisor_a9d7eafc36b5429092ba0f758bc7841c4}\label{classSupervisor_a9d7eafc36b5429092ba0f758bc7841c4}} 
+\index{Supervisor@{Supervisor}!Supervisor@{Supervisor}}
+\index{Supervisor@{Supervisor}!Supervisor@{Supervisor}}
+\subsubsection{\texorpdfstring{Supervisor()}{Supervisor()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Supervisor\+::\+Supervisor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default constructor for the \hyperlink{classSupervisor}{Supervisor} class.
+
+\begin{DoxyPrecond}{Precondition}
+A \hyperlink{classSupervisor}{Supervisor} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+An empty \hyperlink{classSupervisor}{Supervisor} will be created. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classSupervisor_a02d9245744652deb20e9408001d6ed3b}\label{classSupervisor_a02d9245744652deb20e9408001d6ed3b}} 
+\index{Supervisor@{Supervisor}!Supervisor@{Supervisor}}
+\index{Supervisor@{Supervisor}!Supervisor@{Supervisor}}
+\subsubsection{\texorpdfstring{Supervisor()}{Supervisor()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Supervisor\+::\+Supervisor (\begin{DoxyParamCaption}\item[{int}]{ID,  }\item[{int}]{years,  }\item[{double}]{hourly\+Rate,  }\item[{float}]{hours\+Worked,  }\item[{int}]{num\+Supervised }\end{DoxyParamCaption})}
+
+Paramaterized constructor for the \hyperlink{classSupervisor}{Supervisor} class.
+
+
+\begin{DoxyParams}{Parameters}
+{\em int} & ID \hyperlink{classSupervisor}{Supervisor}\textquotesingle{}s ID \\
+\hline
+{\em int} & years \hyperlink{classSupervisor}{Supervisor}\textquotesingle{}s Years Worked \\
+\hline
+{\em double} & hourly\+Rate \hyperlink{classSupervisor}{Supervisor}\textquotesingle{}s Hourly Pay \\
+\hline
+{\em float} & hours\+Worked \hyperlink{classSupervisor}{Supervisor}\textquotesingle{}s Work Hours \\
+\hline
+{\em int} & num\+Supervised \hyperlink{classSupervisor}{Supervisor}\textquotesingle{}s \# of employees supervised \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+A \hyperlink{classSupervisor}{Supervisor} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+A \hyperlink{classSupervisor}{Supervisor} will be created with the given information. 
+\end{DoxyPostcond}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSupervisor_aa37daa89523c08b84ae8141299e036f8}\label{classSupervisor_aa37daa89523c08b84ae8141299e036f8}} 
+\index{Supervisor@{Supervisor}!calculate\+Pay@{calculate\+Pay}}
+\index{calculate\+Pay@{calculate\+Pay}!Supervisor@{Supervisor}}
+\subsubsection{\texorpdfstring{calculate\+Pay()}{calculatePay()}}
+{\footnotesize\ttfamily double Supervisor\+::calculate\+Pay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Calculates pay\+: (hourly\+Rate $\ast$ hours\+Worked + num\+Supervised / 100)
+
+\begin{DoxyPrecond}{Precondition}
+A \hyperlink{classSupervisor}{Supervisor} 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+double The \hyperlink{classSupervisor}{Supervisor}\textquotesingle{}s Pay 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+
+\end{DoxyPostcond}
+
+
+Reimplemented from \hyperlink{classEmployee_a01c2c44e15434237db28832f6972e960}{Employee}.
+
+\mbox{\Hypertarget{classSupervisor_a92483dc9a54904d79b46c6ec4efb3f54}\label{classSupervisor_a92483dc9a54904d79b46c6ec4efb3f54}} 
+\index{Supervisor@{Supervisor}!print@{print}}
+\index{print@{print}!Supervisor@{Supervisor}}
+\subsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Supervisor\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Prints all basic employee information alongside Supervisor-\/specific information.
+
+\begin{DoxyPrecond}{Precondition}
+A \hyperlink{classSupervisor}{Supervisor} 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+Prints all \hyperlink{classSupervisor}{Supervisor} information to console. 
+\end{DoxyPostcond}
+
+
+Reimplemented from \hyperlink{classEmployee_a79556ad700627dba88049f487a34a762}{Employee}.
+
+
+
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-Supervisor.\+h\item 
-Supervisor.\+cpp\end{DoxyCompactItemize}
+\hyperlink{Supervisor_8h}{Supervisor.\+h}\item 
+\hyperlink{Supervisor_8cpp}{Supervisor.\+cpp}\end{DoxyCompactItemize}
